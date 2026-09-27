@@ -1,0 +1,19 @@
+data:
+  train_dir: dataset/train
+  test_dir: dataset/test
+output:
+  directory: output
+reports:
+  directory: reports
+model:
+  random_seed: 42
+  negative_ratio: 4
+blocking:
+  max_tfidf_candidates: 30
+  max_ngram_candidates: 30
+  max_token_candidates: 100
+matching:
+  threshold: auto
+validation:
+  test_size: 0.2
+  random_seed: 42

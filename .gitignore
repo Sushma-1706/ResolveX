@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+models/*.joblib
+output/*.tsv
+reports/*.json
+reports/*.csv
+dataset/train/*.tsv
+dataset/test/*.tsv
+frontend/node_modules/
